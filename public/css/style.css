@@ -143,3 +143,11 @@ th,td{
     padding:10px;
     border:1px solid #ddd;
 }
+th{
+    background-color:#007bff;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color:#f2f2f2;
+}
