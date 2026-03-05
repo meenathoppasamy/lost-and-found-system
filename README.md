@@ -13,3 +13,4 @@ Technologies Used:
 - MySQL
 - HTML
 - CSS
+Project developed for Web Application Development Assignment.
