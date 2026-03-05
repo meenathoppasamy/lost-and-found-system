@@ -87,3 +87,14 @@ function escapeHTML(str){
 
 /* AUTO LOAD ITEMS */
 document.addEventListener("DOMContentLoaded", loadItems);
+
+document.getElementById("itemForm").addEventListener("submit", function(e){
+
+    const itemName = document.getElementById("itemName").value;
+
+    if(itemName.trim() === ""){
+        alert("Item name cannot be empty");
+        e.preventDefault();
+    }
+
+});
